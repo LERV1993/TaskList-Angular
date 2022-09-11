@@ -1,3 +1,16 @@
 {
-  "task": []
+  "task": [
+    {
+      "id": 1,
+      "text": "Terminar el primer modulo de Angular",
+      "day": "Agosto 5 a las 12:00",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Hacer las compras para la casa",
+      "day": "Agosto 5 a las 17:00",
+      "reminder": true
+    }
+  ]
 }
