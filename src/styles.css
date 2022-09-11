@@ -42,7 +42,8 @@ body{
 }
 .btn-block {
     display: block;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .form-control {
