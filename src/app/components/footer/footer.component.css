@@ -1,6 +1,7 @@
 footer{
-    display: flex;
+    display: block;
     width: auto;
+    text-align: center;
 }
 a{
     margin-left: 5%;
