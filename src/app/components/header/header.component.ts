@@ -10,12 +10,14 @@ import { Subscription} from 'rxjs';
 export class HeaderComponent implements OnInit {
 
   title: string = 'My Task List';
-  showAddTask: boolean = false;
+  showAddTask: boolean = true;
   subscription?: Subscription;
 
   constructor(
     private uiService: UiService
-  ) { }
+  ) {
+    this.subscription = this.uiService.onToggle().subscribe( value=> this.showAddTask = value)
+  }
 
   ngOnInit(): void {
   }
